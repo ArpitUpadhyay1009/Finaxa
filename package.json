@@ -5,10 +5,12 @@
   "type": "module",
   "description": "Finaxa Investments - Smart Wealth Management & Investment Solutions",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview",
+  "postinstall": "chmod +x node_modules/.bin/tsc"
+}
+,
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-alert-dialog": "^1.0.5",
