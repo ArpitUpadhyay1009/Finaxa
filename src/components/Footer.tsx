@@ -1,4 +1,4 @@
-import { Separator } from '@/components/ui/separator';
+import { Separator } from './ui/separator';
 import { Globe, Mail, Phone, MapPin } from 'lucide-react';
 
 export const Footer = () => {

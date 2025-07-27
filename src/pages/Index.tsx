@@ -1,14 +1,14 @@
 import { useEffect } from 'react';
-import { Navigation } from '@/components/Navigation';
-import { HeroCarousel } from '@/components/HeroCarousel';
-import { StatsSection } from '@/components/StatsSection';
-import { FeaturesSection } from '@/components/FeaturesSection';
-import { AboutSection } from '@/components/AboutSection';
-import { WhyChooseUs } from '@/components/WhyChooseUs';
-import { Footer } from '@/components/Footer';
-import { InvestmentProducts } from '@/components/InvestmentProducts';
-import { AnimatedBackground } from '@/components/AnimatedBackground';
-import { ImageBackgroundSection } from '@/components/ImageBackgroundSection';
+import { Navigation } from '../components/Navigation';
+import { HeroCarousel } from '../components/HeroCarousel';
+import { InvestmentProducts } from '../components/InvestmentProducts';
+import { AboutSection } from '../components/AboutSection';
+import { ImageBackgroundSection } from '../components/ImageBackgroundSection';
+import { FeaturesSection } from '../components/FeaturesSection';
+import { WhyChooseUs } from '../components/WhyChooseUs';
+import { StatsSection } from '../components/StatsSection';
+import { Footer } from '../components/Footer';
+import { AnimatedBackground } from '../components/AnimatedBackground';
 
 const Index = () => {
   useEffect(() => {

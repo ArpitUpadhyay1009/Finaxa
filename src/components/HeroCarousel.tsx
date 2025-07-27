@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence, useMotionValue } from 'framer-motion';
-import { Button } from '@/components/ui/button';
+import { Button } from './ui/button';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [

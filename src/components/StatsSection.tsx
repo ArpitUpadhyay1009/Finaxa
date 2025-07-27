@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
-import { Card, CardContent } from '@/components/ui/card';
-import { TrendingUp, Users, Clock, Headset } from 'lucide-react';
+import { Card, CardContent } from './ui/card';
+import { TrendingUp, Users, Clock, Phone } from 'lucide-react';
 
 interface Stat {
   value: string;
@@ -37,7 +37,7 @@ const stats: Stat[] = [
     value: "24/7",
     label: "Dedicated Support",
     description: "Always here for our clients",
-    icon: <Headset className="w-6 h-6" />,
+    icon: <Phone className="w-6 h-6" />,
     gradient: "from-purple-500 to-fuchsia-600"
   }
 ];
