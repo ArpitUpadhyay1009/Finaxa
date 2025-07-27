@@ -6,9 +6,9 @@
   "description": "Finaxa Investments - Smart Wealth Management & Investment Solutions",
   "scripts": {
   "dev": "vite",
-  "build": "tsc && vite build",
   "preview": "vite preview",
-  "postinstall": "chmod +x node_modules/.bin/tsc"
+  "postinstall": "chmod +x node_modules/.bin/tsc",
+  "build": "tsc && vite build"
 }
 ,
   "dependencies": {
