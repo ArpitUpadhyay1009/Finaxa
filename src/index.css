@@ -161,6 +161,14 @@ All colors MUST be HSL.
     transition: var(--transition-bounce);
   }
 
+  /* Force hero section text to be white regardless of theme */
+  .hero-text-white h1,
+  .hero-text-white h2,
+  .hero-text-white p,
+  .hero-text-white span {
+    color: white !important;
+  }
+
   /* 3D Transform effects */
   .transform-3d {
     transform-style: preserve-3d;

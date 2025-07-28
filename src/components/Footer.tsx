@@ -30,7 +30,7 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="bg-card border-t border-border/50">
+    <footer className="bg-white border-t border-border/50 text-white">
       <div className="container mx-auto px-6 py-16">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
@@ -38,23 +38,23 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">DF</span>
+                <span className="text-primary-foreground font-bold text-sm">CC</span>
               </div>
-              <span className="text-xl font-bold gradient-primary bg-clip-text text-transparent">
-                DeepFinance
+              <span className="text-xl font-bold text-white">
+                Celestia Capitals
               </span>
             </div>
             
-            <p className="text-muted-foreground mb-6 max-w-sm">
+            <p className="mb-6 max-w-sm text-white/80">
               Advanced investment analytics platform powered by cutting-edge 3D visualization 
               technology for professional investors worldwide.
             </p>
 
             {/* Contact Info */}
-            <div className="space-y-3 text-sm text-muted-foreground">
+            <div className="space-y-3 text-sm text-white/80">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>contact@deepfinance.com</span>
+                <span>contact@celestiacapitals.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
@@ -74,13 +74,13 @@ export const Footer = () => {
           {/* Footer Links */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h3 className="font-semibold text-foreground mb-4">{category}</h3>
+              <h3 className="font-semibold text-white mb-4">{category}</h3>
               <ul className="space-y-3">
                 {links.map((link) => (
                   <li key={link.label}>
                     <a 
                       href={link.href} 
-                      className="text-muted-foreground hover:text-foreground transition-smooth text-sm"
+                      className="text-white/70 hover:text-white transition-smooth text-sm"
                     >
                       {link.label}
                     </a>
@@ -94,9 +94,9 @@ export const Footer = () => {
         <Separator className="mb-8" />
 
         {/* Bottom Footer */}
-        <div className="flex flex-col md:flex-row items-center justify-between text-sm text-muted-foreground">
+        <div className="flex flex-col md:flex-row items-center justify-between text-sm text-white/80">
           <div className="mb-4 md:mb-0">
-            <p>&copy; 2024 DeepFinance. All rights reserved.</p>
+            <p>&copy; 2024 Celestia Capitals. All rights reserved.</p>
           </div>
           
           <div className="flex items-center space-x-6">
@@ -107,11 +107,11 @@ export const Footer = () => {
         </div>
 
         {/* Compliance Notice */}
-        <div className="mt-8 p-4 bg-muted/20 rounded-lg border border-border/30">
-          <p className="text-xs text-muted-foreground">
+        <div className="mt-8 p-4 bg-white/10 rounded-lg border border-border/30">
+          <p className="text-xs text-white/70">
             <strong>Investment Disclaimer:</strong> All investments involve risk of loss. Past performance 
             is not indicative of future results. Please consult with a financial advisor before making 
-            investment decisions. DeepFinance is a registered investment advisor.
+            investment decisions. Celestia Capitals is a registered investment advisor.
           </p>
         </div>
       </div>

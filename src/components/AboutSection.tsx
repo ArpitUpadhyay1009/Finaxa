@@ -46,7 +46,7 @@ export const AboutSection = () => {
                   Our bespoke investment portfolios are built for high-net-worth individuals seeking exclusivity and performance. We provide opportunities across international markets with transparent reporting and access to global exchanges.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-                  At Finaxa Investments, we specialize in partnering with discerning investors to unlock exceptional opportunities across Real Estate, Aviation & Commodities. Bringing forth nearly a decade's industry expertise, financial capabilities, & operational excellence, we are committed to delivering consistent risk-adjusted returns and preserving generational wealth.
+                  At Celestia Capitals, we specialize in partnering with discerning investors to unlock exceptional opportunities across Real Estate, Aviation & Commodities. Bringing forth nearly a decade's industry expertise, financial capabilities, & operational excellence, we are committed to delivering consistent risk-adjusted returns and preserving generational wealth.
                 </p>
                 <button className="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-medium rounded-lg transition-all duration-300 transform hover:-translate-y-0.5">
                   Learn More

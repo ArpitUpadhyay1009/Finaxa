@@ -5,7 +5,7 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Homepage -->
   <url>
-    <loc>https://finaxa.com/</loc>
+    <loc>https://celestiacapitals.com/</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -13,28 +13,28 @@
   
   <!-- Main Pages -->
   <url>
-    <loc>https://finaxa.com/about</loc>
+    <loc>https://celestiacapitals.com/about</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://finaxa.com/investment-products</loc>
+    <loc>https://celestiacapitals.com/investment-products</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://finaxa.com/features</loc>
+    <loc>https://celestiacapitals.com/features</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://finaxa.com/why-choose-us</loc>
+    <loc>https://celestiacapitals.com/why-choose-us</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -42,14 +42,14 @@
   
   <!-- Legal Pages -->
   <url>
-    <loc>https://finaxa.com/privacy-policy</loc>
+    <loc>https://celestiacapitals.com/privacy-policy</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://finaxa.com/terms-of-service</loc>
+    <loc>https://celestiacapitals.com/terms-of-service</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -57,7 +57,7 @@
   
   <!-- Contact -->
   <url>
-    <loc>https://finaxa.com/contact</loc>
+    <loc>https://celestiacapitals.com/contact</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -65,7 +65,7 @@
   
   <!-- Blog (if applicable) -->
   <!-- <url>
-    <loc>https://finaxa.com/blog</loc>
+    <loc>https://celestiacapitals.com/blog</loc>
     <lastmod>2025-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
